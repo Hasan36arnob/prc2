@@ -268,23 +268,7 @@ const EducationAndIT = () => {
             whileInView={{ opacity: 1, y: 0 }}
             className="text-center mt-12"
           >
-            <div className="bg-white/30 rounded-2xl p-8 backdrop-blur-sm border border-white/40">
-              <h3 className="text-2xl font-bold text-black mb-4">
-                Partner with Us for Digital Education
-              </h3>
-              <p className="text-lg text-black/70 mb-6 max-w-2xl mx-auto">
-                Join our network of educational institutions and technology partners 
-                to shape the future of learning through innovation and collaboration.
-              </p>
-              <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
-                <button className="bg-blue-500 hover:bg-blue-600 text-white px-6 py-3 rounded-full font-semibold transition-all duration-300">
-                  Become a Partner
-                </button>
-                <button className="border-2 border-blue-400 text-blue-600 hover:bg-blue-400/10 px-6 py-3 rounded-full font-semibold transition-all duration-300">
-                  Download Brochure
-                </button>
-              </div>
-            </div>
+        
           </motion.div>
         )}
       </div>
