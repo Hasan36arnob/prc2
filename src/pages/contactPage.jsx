@@ -12,7 +12,7 @@ const ContactPage = () => {
     const formData = new FormData(e.target);
 
     try {
-      const response = await fetch("https://formspree.io/f/mvgaoldy", {
+      const response = await fetch("https://formspree.io/f/xdkwybld", {
         method: "POST",
         body: formData,
         headers: {
@@ -145,19 +145,13 @@ const ContactPage = () => {
                     >
                       Service Interest
                     </label>
-                    <select
+                    <input
+                      type="text"
                       id="service"
                       name="service"
                       className="w-full px-4 py-3 rounded-lg border border-blue-200 focus:ring-2 focus:ring-blue-500 focus:border-blue-500 transition-all text-blue-800 bg-white"
-                    >
-                      <option value="">Select a service</option>
-                      <option value="gee-analysis">GEE Analysis</option>
-                      <option value="qgis-solutions">QGIS Solutions</option>
-                      <option value="climate-dashboard">
-                        Climate Dashboard
-                      </option>
-                      <option value="other">Other</option>
-                    </select>
+                      placeholder="Type your service interest"
+                    />
                   </div>
                   <div>
                     <label
