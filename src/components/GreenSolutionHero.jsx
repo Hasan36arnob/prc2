@@ -133,8 +133,7 @@ const GreenSolutionsHero = () => {
             <span className="text-sky-600"> </span>
           </h1>
           <p className="text-xl text-blue-800 mb-12 max-w-2xl mx-auto">
-            Join us in revolutionizing the way businesses approach
-            sustainability. Together, we can make a difference.
+            Together, we can make a difference.
           </p>
           <div className="flex flex-col sm:flex-row justify-center gap-4">
             {/* <button className="px-8 py-4 bg-white text-blue-700 rounded-full font-semibold hover:bg-blue-50 transition-all duration-300 hover:shadow-xl hover:scale-105 transform">

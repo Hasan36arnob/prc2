@@ -10,7 +10,7 @@ function Footer() {
             {/* Company Header */}
             <div className="flex items-center space-x-3 mb-6">
              
-              <h3 className="text-xl font-bold text-blue-400">WeCare Foundation</h3>
+              <h3 className="text-xl font-bold text-blue-400">WeCare For Climate Foundation</h3>
             </div>
 
             {/* Managing Partner Section */}
