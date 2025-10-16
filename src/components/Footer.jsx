@@ -10,7 +10,7 @@ function Footer() {
             {/* Company Header */}
             <div className="flex items-center space-x-3 mb-6">
              
-              <h3 className="text-xl font-bold text-blue-400">Climate Tech</h3>
+              <h3 className="text-xl font-bold text-blue-400">WeCare Foundation</h3>
             </div>
 
             {/* Managing Partner Section */}
@@ -18,10 +18,10 @@ function Footer() {
               <div className="flex justify-between items-start">
                 <div>
                   <h4 className="font-bold text-black mb-2">
-                    Bushra Monowar Duti, Managing Partner
+                    Bushra Monowar Duti 
                   </h4>
                   <p className="text-black/70 text-sm">
-                    Jan 2025 - Present | Bangladesh (Remote)
+                     
                   </p>
                 </div>
                 <a
@@ -91,7 +91,7 @@ function Footer() {
 
         <div className="border-t border-blue-200 mt-12 pt-8 text-center text-black/70">
           <p>
-            &copy; {new Date().getFullYear()} Climate Tech. All rights reserved.
+            &copy; {new Date().getFullYear()} WeCare Foundation. All rights reserved.
           </p>
         </div>
       </div>

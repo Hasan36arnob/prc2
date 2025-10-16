@@ -239,25 +239,7 @@ const AwarenessRaising = () => {
             whileInView={{ opacity: 1, y: 0 }}
             className="text-center mt-12"
           >
-            <div className="bg-white/30 rounded-2xl p-8 backdrop-blur-sm border border-white/40">
-              <h3 className="text-2xl font-bold text-black mb-4">
-                Join Our Awareness Network
-              </h3>
-              <p className="text-lg text-black/70 mb-6 max-w-2xl mx-auto">
-                Subscribe to receive educational materials, campaign toolkits, and updates 
-                on upcoming community workshops and events.
-              </p>
-              <div className="flex flex-col sm:flex-row gap-4 justify-center items-center max-w-md mx-auto">
-                <input
-                  type="email"
-                  placeholder="Enter your email"
-                  className="flex-1 px-4 py-3 rounded-full border border-indigo-300 focus:outline-none focus:ring-2 focus:ring-indigo-400 focus:border-transparent"
-                />
-                <button className="bg-indigo-500 hover:bg-indigo-600 text-white px-6 py-3 rounded-full font-semibold transition-all duration-300 whitespace-nowrap">
-                  Subscribe Now
-                </button>
-              </div>
-            </div>
+        
           </motion.div>
         )}
       </div>
