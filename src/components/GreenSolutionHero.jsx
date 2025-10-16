@@ -57,7 +57,7 @@ const GreenSolutionsHero = () => {
             <div className="flex-shrink-0 flex items-center space-x-3">
               
               <span className="text-lg font-semibold text-white">
-               WeCare Foundation
+              WeCare for Climate Foundation
               </span>
             </div>
 
@@ -129,7 +129,7 @@ const GreenSolutionsHero = () => {
         <div className="absolute inset-0 bg-[url('/pattern.png')] opacity-10"></div>
         <div className="relative z-10 max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h1 className="text-4xl sm:text-6xl lg:text-7xl font-bold text-blue-900 mb-8">
-            Harnessing Technology for Climate Solutions{" "}
+           Harnessing Technology for Climate Solutions and Community Development{" "}
             <span className="text-sky-600"> </span>
           </h1>
           <p className="text-xl text-blue-800 mb-12 max-w-2xl mx-auto">
