@@ -6,13 +6,24 @@ const ContactPage = () => {
   const [isCopied, setIsCopied] = useState(false);
   const [isLoading, setIsLoading] = useState(false);
 
+  // read from CRA or Vite env - prefer CRA variable if present
+  const FORM_ENDPOINT =
+    (typeof process !== "undefined" && process.env?.REACT_APP_FORMSPREE_ENDPOINT) ||
+    (typeof import.meta !== "undefined" && import.meta.env?.VITE_FORMSPREE_ENDPOINT) ||
+    "";
+
   const handleSubmit = async (e) => {
     e.preventDefault();
+    if (!FORM_ENDPOINT) {
+      alert("Form endpoint is not configured. Add REACT_APP_FORMSPREE_ENDPOINT or VITE_FORMSPREE_ENDPOINT to your .env");
+      return;
+    }
+
     setIsLoading(true);
     const formData = new FormData(e.target);
 
     try {
-      const response = await fetch("https://formspree.io/f/xdkwybld", {
+      const response = await fetch(FORM_ENDPOINT, {
         method: "POST",
         body: formData,
         headers: {
